@@ -1,0 +1,21 @@
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+
+    .image {
+        background: url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        height: 400px;
+        width: 405px;
+    }
+
+    .info {
+        width: 405px;
+    }
+
+    .info h1 {
+        width: 100%;
+    }
+
+}

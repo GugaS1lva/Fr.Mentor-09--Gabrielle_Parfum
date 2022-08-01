@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+}
+
+main{
+    display: flex;
+    width: 700px;
+    height: 515px;
+}
+
+.image{
+    width: 500px;
+    background: url(../images/image-product-desktop.jpg) center center no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.info{
+    width: 500px;
+    background-color: white;
+    padding: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.info h2{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.info h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: #20252B;
+    margin-top: 20px;
+    width: 200px;
+}
+.info p{
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.info .price, strong, span{
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    margin-top: 15px;
+}
+.info .price strong{
+    color: hsl(158, 36%, 37%);
+    font-size: 2.3rem;
+    margin-right: 20px;
+}
+.info .price span{
+    text-decoration: line-through;
+}
+
+.info .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.info .button:hover{
+    cursor: pointer;
+    background-color: #1A4031;
+}
+
+.fa-cart-shopping{
+    margin-right: 15px;
+}
