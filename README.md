@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click-me](.)
-- Live Site URL: [Click-me](.)
+- Solution URL: [Click-me](https://www.frontendmentor.io/solutions/frontend-mentor-product-preview-card-component-inMLBC0rIm)
+- Live Site URL: [Click-me](https://gugas1lva.github.io/Fr.Mentor-09--Gabrielle_Parfum/)
 
 ## My process
 
